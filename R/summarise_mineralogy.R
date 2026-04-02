@@ -151,7 +151,7 @@ if (type == "summary") {
 
 if (type == "all")  {
 
-  mineralogy <- lapply(x, function(y) y$phases[, c("phase_name","phase_percent")])
+  mineralogy <- lapply(x, function(y) y$phases[, c("phase_id","phase_percent")])
                      
 } else {
 
