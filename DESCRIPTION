@@ -5,7 +5,7 @@ Version: 1.3.1.001
 Date: 2026-11-24
 Authors@R: c(
   person("Benjamin", "Butler", email = "benjamin.butler@hutton.ac.uk",
-  role = c("aut", "cre")),
+  role = "aut",
   person("Stephen", "Hillier", email = "stephen.hillier@hutton.ac.uk",
   role = c("aut", "cre")),
   person("Dylan", "Beaudette", role = "ctb"),
