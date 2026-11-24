@@ -1,24 +1,24 @@
 Package: powdR
 Type: Package
 Title: Full Pattern Summation of X-Ray Powder Diffraction Data
-Version: 1.3.0.999
-Date: 2021-11-03
+Version: 1.3.1.001
+Date: 2026-11-24
 Authors@R: c(
   person("Benjamin", "Butler", email = "benjamin.butler@hutton.ac.uk",
   role = c("aut", "cre")),
   person("Stephen", "Hillier", email = "stephen.hillier@hutton.ac.uk",
-  role = "aut"),
+  role = c("aut", "cre")),
   person("Dylan", "Beaudette", role = "ctb"),
   person("Dennis", "Eberl", role = "ctb"))
-Maintainer: Benjamin Butler <benjamin.butler@hutton.ac.uk>
+Maintainer: Stephen Hillier <stephen.hillier@hutton.ac.uk>
 Description: Full pattern summation of X-ray powder diffraction data as
   described in Chipera and Bish (2002) <doi:10.1107/S0021889802017405> and
   Butler and Hillier (2021) <doi:10.1016/j.cageo.2020.104662>.
   Derives quantitative estimates of crystalline and amorphous phase
   concentrations in complex mixtures.
 License: GPL-2 | file LICENSE
-URL: https://github.com/benmbutler/powdR
-BugReports: https://github.com/benmbutler/powdR/issues
+URL: https://github.com/SteveHillier/powdR
+BugReports: https://github.com/SteveHillier/powdR/issues
 Depends:
   R (>= 3.2.0)
 Encoding: UTF-8
@@ -44,5 +44,5 @@ Suggests:
     knitr,
     rmarkdown,
     bookdown
-RoxygenNote: 7.1.1
 VignetteBuilder: knitr
+Config/roxygen2/version: 8.0.0
