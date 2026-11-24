@@ -2,6 +2,7 @@
 % Please edit documentation in R/powdR.R
 \docType{package}
 \name{powdR}
+\alias{powdR-package}
 \alias{powdR}
 \title{powdR: Full Pattern Summation of X-Ray Powder Diffraction Data}
 \description{
@@ -12,6 +13,10 @@ Butler & Hillier 2021).
 \references{
 Butler, B. M., Hillier, S., 2021.powdR: An R package for quantitative mineralogy using full pattern
 summation of X-ray powder diffraction data. Comp. Geo. 147, 104662. doi:10.1016/j.cageo.2020.104662
+
+Butler, B.M., Hillier, S., 2021. Automated full-pattern summation of X-ray powder diffraction data
+for high-throughput quantification of clay-bearing mixtures, Clays and Clay Minerals, 69, 38-51.
+doi:/10.1007/s42860-020-00105-6
 
 Chipera, S.J., Bish, D.L., 2013. Fitting Full X-Ray Diffraction Patterns for Quantitative Analysis:
 A Method for Readily Quantifying Crystalline and Disordered Phases. Adv. Mater. Phys. Chem. 03, 47-53.
@@ -24,6 +29,16 @@ doi:10.1107/S0021889802017405
 Eberl, D.D., 2003. User's guide to ROCKJOCK - A program for determining quantitative mineralogy from
 powder X-ray diffraction data. Boulder, CA.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/SteveHillier/powdR}
+  \item Report bugs at \url{https://github.com/SteveHillier/powdR/issues}
+}
+
+}
 \author{
 Benjamin Butler, The James Hutton Institute, Aberdeen, UK
+
+Stephen Hillier, The James Hutton Institute, Aberdeen, UK
 }
